@@ -1,0 +1,211 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+h2{
+    font-size: 42px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 32px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2vw;
+    background-color: #B6DCFE;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    color:indigo;
+}
+header h1 {
+    display: flex;
+    width: 100%;
+    margin: 5px auto;
+    padding: 20px;
+}
+header nav {
+    display: flex;
+    width: 100%;
+}
+
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    display: flex;
+    display: inline;
+    font-size: 32px;
+    padding: 20px;
+    margin-right: 15px;
+}
+
+header nav ul li a{
+    color: indigo;
+    text-decoration: none;
+    display: flex;
+}
+
+.AboutMe {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2em;
+}
+
+
+.AboutMe img {
+    width: auto;
+    height:50vh;
+    border-radius: 45%;
+    box-shadow: 3px 3px 3px 1px;
+    display: flex;
+    top: 5px;
+}
+.education img{
+    display: flex;
+    width: auto;
+    height:50vh;
+    border-radius: 0%;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.SelfIntro {
+    display: block;
+    font-size: 30px;
+    color:indigo;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.Projects {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project1 {
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+.project2 {
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+#tictactoe{
+    background-image: url(Professional-Portfolio/assest/tictactoe.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.project1:hover {
+    height: auto;
+    width: 75%;
+}
+
+.project2:hover {
+    height: auto;
+    width: 75%;
+}
+
+#M1Challenge{
+    background-image: url(Professional-Portfolio/assest/Module1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.Resume {
+    display: flex;
+    text-align: center;
+}
+
+.ContactMe {
+    border: solid 2px;
+    border-style: dashed;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+#message
+{
+    height:200px;
+    width: 400px;
+    padding: 0px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #B6DCFE;
+    color:indigo;
+  }
+
+  @media screen and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        background-color: blue;
+        color: white;
+    }
+    header nav ul li a{
+        color: white;
+    }
+    .AboutMe {
+        flex-direction: column;
+        text-align: center;
+    }
+    .AboutMe img {
+        margin: 0 auto 20px auto;
+    }
+    .SelfIntro {
+        font-size: 4vw; 
+    }
+    .Projects {
+        flex-direction: column;
+    }
+
+    .project1, .project2 {
+        width: 90%;
+    }
+    footer {
+        background-color: blue;
+        color:white
+    }
+}
+
