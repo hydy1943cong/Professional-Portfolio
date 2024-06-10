@@ -119,7 +119,7 @@ header nav ul li a{
   }
 
 #tictactoe{
-    background-image: url(Professional-Portfolio/assest/tictactoe.png);
+    background-image: url(assest/tictactoe.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -139,7 +139,7 @@ header nav ul li a{
 }
 
 #M1Challenge{
-    background-image: url(Professional-Portfolio/assest/Module1.png);
+    background-image: url(assest/Module1.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
