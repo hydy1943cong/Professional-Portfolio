@@ -65,12 +65,11 @@ header nav ul li a{
     background-color: white;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     gap: 2em;
 }
 
 
-.AboutMe img {
+.headshot {
     width: auto;
     height:50vh;
     border-radius: 45%;
@@ -174,6 +173,53 @@ footer {
     background-color: #B6DCFE;
     color:indigo;
   }
+
+
+ @media screen and (max-width: 1300px) {
+
+    .AboutMe{
+        flex-direction: column;
+        text-align: center;
+    }
+    .AboutMe img{
+        width: 30%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    
+    .SelfIntro{
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .education{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width:90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .education img{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width:90%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
 
   @media screen and (max-width: 1024px) {
     header {
