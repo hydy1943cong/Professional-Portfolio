@@ -240,7 +240,21 @@ footer {
         margin: 0 auto 20px auto;
     }
     .SelfIntro {
-        font-size: 4vw; 
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    .education img{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width:100%;
+        height: auto;
+        margin: 0 auto;
     }
     .Projects {
         flex-direction: column;
